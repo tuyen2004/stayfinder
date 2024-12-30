@@ -1,0 +1,118 @@
+.container-tuyen {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.search-box {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.search-box input {
+    width: 60%;
+    padding: 10px 40px 10px 15px; /* Khoảng trống cho icon bên phải */
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.search-box input::placeholder {
+    color: #bbb;
+}
+
+.search-box .icon {
+    position: absolute;
+    right: 22%;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #bbb;
+    font-size: 18px;
+    pointer-events: none;
+}
+
+.title {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.btn-edit {
+    background-color: #FFD700;
+    color: black;
+    border: white;
+    margin-top: 18px;
+}
+
+.btn-delete {
+    background-color: #FF4C4C;
+    border: white;
+    margin-top: 18px;
+}
+
+.btn-status {
+    background-color: #4CAF50;
+    padding: 7px 12%;
+    border-radius: 5px;
+    color: white;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pagination a.active {
+    background-color: #FF4C4C;
+    color: white;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+.form-add-rentaltype{
+    width: 50%;
+    margin: 0 auto;
+}

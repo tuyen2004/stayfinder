@@ -1,0 +1,133 @@
+.image-upload {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.upload-placeholder {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: #ccc;
+  cursor: pointer;
+}
+
+.upload-placeholder i {
+  font-size: 24px;
+}
+
+.upload-placeholder span {
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.uploaded-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.personal-info-form {
+  width: 700px;
+  height: 700px;
+  margin-top: 10px;
+  margin-top: 5px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 1px;
+  background-color: #f9f9f9;
+}
+
+.listnewform-left {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.personal-info-form h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-group a {
+  color: red;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.save-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.save-btn:hover {
+  background-color: darkred;
+}
+.image-upload {
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom: 20px;
+}
+
+.upload-placeholder {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+background-color: #f0f0f0;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: #ccc;
+cursor: pointer;
+}
+
+.upload-placeholder i {
+font-size: 24px;
+}
+
+.upload-placeholder span {
+font-size: 12px;
+margin-top: 5px;
+}
+
+.uploaded-image {
+width: 100px;
+height: 100px;
+border-radius: 50%;
+object-fit: cover;
+}

@@ -1,0 +1,211 @@
+/* Main Main Main */
+
+/* Gợi ý khu vực */
+.item1 {
+
+    position: relative;
+    grid-area: sg;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+.item_shadow img {
+  border-radius: 7px;
+  z-index: 1;
+}
+
+
+.item1 h6 {
+    margin-left: 20px;
+    color: white;
+    margin-top: 10px;
+    position: absolute;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.quantity-post{
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+.item2{
+    position: relative;
+    grid-area: hn;
+    cursor: pointer;
+}
+
+
+.item2 img {
+  border-radius: 7px;
+}
+.item2 h6 {
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+
+
+.item3{
+    position: relative;
+    grid-area: bd;
+    cursor: pointer;
+}
+
+
+.item3 img {
+  border-radius: 7px;
+}
+.item3 h6 {
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+
+.item4 {
+  position: relative;
+  grid-area: dn;
+  cursor: pointer;
+}
+
+.item4 img {
+  border-radius: 7px;
+}
+.item4 h6 {
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.item5 {
+  position: relative;
+  grid-area: danang;
+  cursor: pointer;
+}
+
+.item5 img {
+  border-radius: 7px;
+}
+.item5 h6 {
+  margin-left: 10px;
+  color: white;
+  position: absolute;
+  margin-top: 10px;
+  font-weight: bolder;
+  font-size: 15px;
+}
+.PostApartment_container {
+  max-width: 90%;
+  margin: auto;
+}
+.item_shadow div {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  transition: box-shadow 0.3s ease-in-out;
+  border-radius: 7px;
+}
+.item_shadow div:hover {
+  box-shadow: inset 0px 40px 30px -10px rgba(13, 13, 13, 0.222);
+}
+
+.Main-GYKV {
+  display: grid;
+  grid-template-areas:
+    "sg  hn  bd"
+    "sg  dn  danang";
+  gap: 15px;
+
+  margin-bottom: 20px;
+}
+
+/* Tin nổi bật Tin nổi bật */
+.Products {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Product {
+  background-color: white;
+  width: 275px;
+  border-radius: 7px;
+  height: auto;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  transition: box-shadow 0.3s ease-out;
+}
+
+.Product img {
+  border-radius: 7px;
+}
+
+.Produtcs {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.Product:hover {
+  cursor: pointer;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.184);
+}
+
+.btn-heartproduct {
+  font-size: 21px;
+  border: 1.5px solid rgba(0, 0, 0, 0.379);
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 200px;
+  margin-top: -45px;
+  margin-bottom: 15px;
+  transition: color 0.3s ease;
+}
+
+.btn-heartproduct:hover .btn_heart {
+  transition: color 0.3s ease;
+  color: red;
+}
+
+.Product_lenght_img {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  color: white;
+  margin-top: -45px;
+  margin-left: 10px;
+}
+.Product_lenght_img p {
+  margin-top: 16px;
+  margin-left: 5px;
+  color: white;
+}
+
+.btn_xemthem {
+  text-align: center;
+}
+
+.btn_xemthem button {
+  height: 40px;
+  border-radius: 10px;
+  width: 100px;
+  background-color: white;
+  border-width: 0.5px;
+}

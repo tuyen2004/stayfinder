@@ -1,0 +1,713 @@
+.header-admin-tooltip-container {
+  display: none; 
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  padding: 5px;
+  background-color: #333;
+  color: white;
+  border-radius: 5px;
+}
+.header-username-container{
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header-username-container:hover .header-admin-tooltip-container {
+  display: block; 
+}
+.header-username-container:hover .header-admin-tooltip-container {
+  display: block !important;
+}
+
+.header-admin-tooltip {
+  padding: 5px;
+}
+
+.header-admin-tooltip a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-admin-tooltip a:hover {
+  text-decoration: underline;
+}
+
+.listnewform {
+  display: flex;
+  background-color: rgba(242, 242, 242, 0.5);
+
+}
+.span-color{
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.PostApartment_container{
+  max-width: 90%;
+  margin: auto;
+}
+:where(.css-dev-only-do-not-override-ni1kz0).ant-row {
+  display: block;
+}
+:where(.css-dev-only-do-not-override-ni1kz0).ant-form-item .ant-form-item-label {
+  text-align: justify;
+  overflow: hidden;
+  white-space: nowrap;
+  vertical-align: middle;
+}
+.PostApartment_container{
+  max-width: 90%;
+  margin: auto;
+}
+
+.custom-select {
+  width: 100%;
+  height: 38px;
+}
+
+.sidebar-tuyen {
+  width: 320px;
+  background-color: #fff;
+  padding: 20px;
+  border-right: 1px solid #ccc;
+  gap: 20px;
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.profile-card {
+  width: 100%;
+  margin: 10px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.profile-header {
+  padding: 20px;
+  background-color: #e0e0e0;
+  border-radius: 8px 8px 0 0;
+}
+
+.account-code-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: -10px;
+}
+
+
+
+
+.profile-avatar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+
+.profile-name {
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.profile-avatar img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.profile-content {
+  padding: 20px;
+}
+
+.profile-stats {
+  margin-bottom: 20px;
+}
+
+.profile-stat {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.account-info {
+  margin-bottom: 20px;
+}
+
+.account-code {
+  background-color: #f4f4f4;
+  padding: 10px;
+  border-radius: 5px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.account-code-title {
+  text-align: left;
+}
+
+.copy-button {
+  background-color: transparent;
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+.copy-button:hover {
+  background-color: #e0e0e0;
+}
+.buy-button {
+  background-color: #e53935;
+  color: white;
+  border: none;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.buy-button:hover {
+  background-color: #d32f2f;
+}
+
+.sidebar-menu {
+  margin-top: 20px;
+}
+
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu ul li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.sidebar-menu ul li i {
+  margin-right: 10px;
+}
+
+.sidebar-menu ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.sidebar-menu ul li a:hover {
+  color: #007bff;
+}
+
+.sidebar-menu hr {
+  border: 1px solid #ccc;
+  margin: 20px 0;
+}
+
+.user-info-right h3 {
+  margin: 0;
+}
+
+.payment-box {
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #d7d7d7;
+  border-radius: 5px;
+}
+
+.payment-box p {
+  margin-bottom: 15px;
+}
+a .payment-box .recharge-button {
+  margin-top: 15px;
+}
+
+.recharge-button {
+  padding: 10px 49px;
+  background-color: #009298;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.recharge-button:hover {
+  background-color: #008489;
+}
+
+.post-form {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+  margin: 10px;
+}
+
+.post-form h2,
+.post-form legend {
+  margin-bottom: 20px;
+}
+.post-form h3 {
+  font-size: 24px;
+  color: rgb(44, 44, 44);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.fieldset {
+  border: none;
+  padding: 0;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.form-group input,
+.form-group textarea,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7fafc;
+}
+
+textarea {
+  height: 200px;
+}
+
+.form-filter {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+  padding-top: 15px;
+  border-bottom: 2px solid #f1f1f1;
+}
+form-filter label {
+  font-weight: bold;
+}
+
+.input-bgr {
+  background-color: #d3e3ea; /* Màu nền đỏ */
+  border: none;
+  padding: 8px;
+  border-radius: 20px;
+}
+.form-auto {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.reactquill-description {
+  height: 150px;
+  padding-bottom: 50px;
+}
+.form-payment {
+  background: #fff;
+  border-bottom: 2px solid #f1f1f1;
+  padding: 12px 30px;
+}
+.payment-info {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background: #ebf0fd;
+}
+.payment-info-row {
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #becbeb;
+}
+.payment-info-row {
+  display: flex;
+  padding-bottom: 8px;
+  margin-bottom: 8px;
+  border-bottom: 1px solid #becbeb;
+}
+
+.payment-row-padding-right {
+  padding-right: 10px;
+  font-weight: 400;
+}
+
+.payment-details {
+  padding: 10px 15px 15px 15px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  background-color: #f2f2f2;
+}
+
+.payment-row {
+  width: 100%;
+  padding-bottom: 8px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #d9d9d9;
+}
+
+.payment-row-none {
+  border: none;
+}
+
+.logout-btn {
+  background-color: white;
+  color: red;
+  font-size: 17px;
+  padding: 0;
+}
+
+.logout-btn:hover {
+  background: none;
+}
+/* Cơ bản cho tất cả nhãn bài đăng */
+.post-label {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  padding: 8px 12px;
+  font-weight: bold;
+  border-radius: 5px;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Khoảng cách giữa icon và chữ */
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: white; /* Chữ màu trắng */
+  transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Thêm hiệu ứng mượt mà khi hover */
+  opacity: 0;
+  animation: fadeIn 0.5s forwards; /* Hiệu ứng dần hiện lên khi trang được tải */
+}
+
+/* Hiệu ứng khi nhãn được hover */
+.post-label:hover {
+  background-color: #ffd700; /* Màu vàng khi hover */
+  cursor: pointer;
+  transform: scale(1.05); /* Tăng kích thước khi hover */
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.3); /* Tăng độ bóng khi hover */
+}
+
+/* Nhãn khi bài đăng đã hết hạn */
+.post-label.expired {
+  background-color: #474444; /* Màu xám đen cho bài hết hạn */
+  color: white;
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Nhãn cho VIP2 */
+.post-label.vip2 {
+  background-color: #ff4d4d; /* Màu đỏ tươi cho VIP2 */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Nhãn cho VIP1 */
+.post-label.vip1 {
+  background-color: #ffbc00; /* Màu vàng sáng cho VIP1 */
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Nhãn cho bài đăng thường */
+.post-label.default {
+  background-color: #34b9eb; /* Màu xanh da trời cho bài thường */
+  box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Hiệu ứng fade-in khi trang được tải */
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+
+
+
+/* Container for the entire transaction history page */
+.transaction-history-container {
+  width: 70%;
+  margin: 0px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.transaction-history-container:hover {
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Styling the transaction table */
+.transaction-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.transaction-table th,
+.transaction-table td {
+  padding: 15px 20px;
+  text-align: left;
+  border-bottom: 1px solid #e0e0e0;
+  font-size: 16px;
+}
+
+.transaction-table th {
+  background-color: #4caf50;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.transaction-table td {
+  background-color: #fafafa;
+  color: #333;
+}
+
+.transaction-table tr:nth-child(even) td {
+  background-color: #f9f9f9;
+}
+
+.transaction-table tr:nth-child(odd) td {
+  background-color: #fff;
+}
+
+/* Hover effect for rows */
+.transaction-table tr:hover td {
+  background-color: #e7f7e7;
+  cursor: pointer;
+}
+
+/* Styling for links */
+.transaction-table a {
+  color: #4caf50;
+  text-decoration: none;
+}
+
+.transaction-table a:hover {
+  color: #45a049;
+  text-decoration: underline;
+}
+
+/* Styling for empty state */
+.transaction-table td[colspan="5"] {
+  text-align: center;
+  font-style: italic;
+  color: #777;
+  padding: 20px 0;
+}
+
+/* Small responsive adjustments */
+@media (max-width: 768px) {
+  .transaction-history-container {
+    width: 90%;
+    padding: 15px;
+  }
+
+  .transaction-table th, .transaction-table td {
+    padding: 10px 12px;
+  }
+
+  .transaction-table th {
+    font-size: 14px;
+  }
+
+  .transaction-table td {
+    font-size: 14px;
+  }
+}
+
+/* Loading and error states */
+.loading,
+.error {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 20px;
+  color: #555;
+}
+/* Màu sắc riêng cho từng loại post-label */
+.post-label-vip2 {
+  background-color: #ff4d4d; /* Màu đỏ chính cho Tin Vip Cao Cấp */
+}
+.post-label-vip2:hover {
+  background-color: #ff3333; /* Tối màu khi hover cho VIP2 */
+}
+
+.post-label-vip1 {
+  background-color: #c0c0c0; /* Màu bạc cho Tin Vip Nổi Bật */
+}
+.post-label-vip1:hover {
+  background-color: #a8a8a8; /* Tối màu khi hover cho VIP1 */
+}
+
+.post-label-thuong {
+  background-color: #2a89ef; /* Màu xanh cho Tin Thường */
+}
+.post-label-thuong:hover {
+  background-color: #1a6fd1; /* Tối màu khi hover cho Tin Thường */
+}
+
+/* Make the page responsive */
+@media screen and (max-width: 768px) {
+  .transaction-history-container {
+    width: 95%;
+  }
+
+  aside {
+    display: none; /* Hide the menu on smaller screens */
+  }
+
+  .transaction-table th, .transaction-table td {
+    padding: 8px;
+  }
+}
+
+/* Căn chỉnh form group */
+.form-group {
+  margin-bottom: 20px;
+}
+
+/* Tùy chỉnh nhãn */
+.form-group label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+/* Ẩn input file gốc */
+.form-group input[type="file"] {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+/* Container for file upload */
+.file-upload-wrapper {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+  padding: 10px;
+  border: 1px dashed #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+.file-upload-wrapper .icon {
+  font-size: 24px;
+  margin-right: 8px;
+}
+
+.file-upload-wrapper input[type="file"] {
+  display: none; /* Hide the file input button */
+}
+
+/* Style for the file name display */
+.file-name {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Container for preview images */
+.image-preview {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+/* Style for each image */
+.image-preview img {
+  max-width: 100px;
+  max-height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+/* Hover effect for images */
+.image-preview img:hover {
+  transform: scale(1.05);
+}
+
+.mb-3 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.mb-3 img,
+.mb-3 video {
+  max-width: 200px;
+  max-height: 150px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
+}
+
+.mb-3 img:hover,
+.mb-3 video:hover {
+  border-color: #007bff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mb-3 p {
+  font-style: italic;
+  color: #888;
+  text-align: center;
+  width: 100%;
+}
+.list-file{
+  display: flex;
+  flex-wrap: wrap;
+}
+.list-file-img{
+  width: 200px;
+  height: 150px;
+  
+}
+.list-file-img img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding:20px;
+}
+.list-file-img video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding:20px;
+}

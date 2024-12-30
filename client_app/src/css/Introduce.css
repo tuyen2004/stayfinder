@@ -1,0 +1,144 @@
+html, body{  
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+    background-color: white;  
+    margin: 0;  
+    padding: 0; 
+    width: 100%;
+
+}  
+
+.backgroundpt {  
+    background-color: #F6F9FC;
+    padding: 20px;  
+    width: 100%;
+    box-sizing: border-box;
+}  
+
+.backgroundpt-white {
+    background-color: #FFFFFF;
+    padding: 20px;  
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.backgroundpt-f2 {
+    background-color: #F2F2F2;
+    padding: 15px;  
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.containerrpt {  
+    display: flex;
+    justify-content: space-between;  
+    align-items: center;  
+    max-width: 1100px;
+    margin: auto; 
+}  
+
+.textpt-sectionpt{  
+    flex: 1;  
+    padding-right: 10px;  
+}  
+
+.imagept-sectionpt {  
+    flex: 1;  
+}  
+
+.leftproo{
+    padding-left: 8%;
+}
+
+.h2ptpt {  
+    color: #e63946;  
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600;  
+}  
+
+.h2ptpt-blackpt {
+    color: black;
+    font-size: 35px;
+    margin-bottom: 10px;
+    font-weight: 600; 
+}
+
+.ptpt {  
+    color: #333;  
+    font-size: 18px;
+    max-width: 600px;
+    text-align: justify; 
+}  
+
+.ptptptpt{
+    font-size: 17px;
+    max-width: 600px;
+    text-align: justify; 
+}
+
+.ptptptptpt{
+    font-size: 17px;
+    max-width: 600px;
+    text-align: justify; 
+    margin-top: -16px;
+}
+
+.img-ptpt {  
+    width: 100%;  
+    height: 300px;  
+
+    object-fit: cover; 
+    padding-left: 8%;
+}
+
+.img-ptptt {
+    width: 108%;  
+    height: 300px;  
+
+    object-fit: cover; 
+}
+
+.margin-pt{
+    margin-bottom: 20px;
+}
+
+.solieu-container {  
+    text-align: center;
+    padding-bottom: 45px;  
+}  
+
+.stay-container { 
+    font-weight: 600; 
+    font-size: 32px;  
+    margin-bottom: 20px;  
+}  
+
+.stats-container {  
+    display: flex;  
+    justify-content: center;  
+    gap: 20px;  
+}  
+
+.stat-item-container {  
+    background-color: white;  
+    border: 1px solid #e0e0e0;  
+    border-radius: 8px;  
+    padding: 20px;  
+    width: 300px;
+    height: 200px;  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  
+}  
+
+.stat-item-container .img-item-container {  
+    width: 100px;  
+    height: 100px;  
+    margin-bottom: 10px;  
+}
+
+.p-item-container {
+    font-size: 25px;
+}
+
+.statss-item {
+    padding: 7px;
+}

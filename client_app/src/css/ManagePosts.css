@@ -1,0 +1,145 @@
+
+
+  .container-tuyen {
+    width: 100%;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+  }
+
+  /* Filter Buttons */
+  .filter-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+
+  .filter-buttons button {
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    font-size: 14px;
+    color: #333;
+  }
+
+  .filter-buttons button:hover {
+    background-color: #f2f2f2;
+  }
+
+  /* Search Box */
+  .search-box {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .search-box input {
+    width: 60%;
+    padding: 10px 15px;
+    border-radius: 20px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+    padding-right: 40px;
+  }
+
+  .search-box input::placeholder {
+    color: #bbb;
+  }
+
+  .search-box .icon {
+    position: absolute;
+    right: 22%;
+    font-size: 18px;
+    color: #bbb;
+  }
+
+  /* Title */
+  .title {
+    background-color: #ff4c4c;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+
+  /* Table Styling */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  table th,
+  table td {
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+
+  table tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+
+  /* Status Labels */
+  .status {
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+  .status.hien {
+    background-color: #28a745; /* Green */
+  }
+
+  .status.an {
+    background-color: #ff4c4c; /* Red */
+  }
+
+  /* Pagination */
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+
+  .pagination a {
+    padding: 10px 15px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+  }
+
+  .pagination a.active {
+    background-color: #ff4c4c;
+    color: white;
+  }
+
+  .pagination a:hover {
+    background-color: #ddd;
+  }
+
+  /* Thumbnail */
+  .thumbnail img {
+    width: 60px;
+    height: auto;
+    border-radius: 5px;
+  }

@@ -1,0 +1,42 @@
+.dashboard {
+    display: flex;
+    gap: 20px;
+    padding-top: 50px;
+}
+.card {
+    width: 300px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.card-icon {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+.card-title {
+    font-size: 1.1em;
+    color: #666;
+    margin-bottom: 5px;
+}
+.card-value {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #333;
+}
+/* Icon background colors */
+.revenue { background-color: black; }
+.users { background-color: red; }
+.new-users { background-color: #003366; }
+.posts { background-color: #FFD700; color: #333; }

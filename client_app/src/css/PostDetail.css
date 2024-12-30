@@ -1,0 +1,133 @@
+/* Định dạng thông báo toast */
+.toast {
+    position: fixed;
+    top: 20px;
+    right: -100%; /* Ban đầu ngoài màn hình */
+    background-color: #28a745; /* Màu nền xanh cho thông báo thành công */
+    color: white;
+    padding: 20px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Đảm bảo toast nằm trên cùng */
+    opacity: 0; /* Ban đầu opacity là 0 (ẩn) */
+    animation: slideInFromRight 0.5s ease-out forwards; /* Hiệu ứng chạy vào */
+  }
+  
+  /* Hiệu ứng chạy từ ngoài vào */
+  @keyframes slideInFromRight {
+    0% {
+      right: -100%; /* Vị trí ban đầu (bên phải ngoài màn hình) */
+      opacity: 0; /* Ẩn thông báo */
+    }
+    100% {
+      right: 50px; /* Dừng lại ở góc phải */
+      opacity: 1; /* Hiển thị thông báo */
+    }
+  }
+  
+  /* Khi thông báo cần fade-out (mờ dần và biến mất) */
+  .toast-fade-out {
+    animation: fadeOut 1s ease-out forwards; /* Áp dụng hiệu ứng fade-out */
+  }
+  
+  /* Hiệu ứng fade-out: Mờ dần và biến mất */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1; /* Vẫn hiển thị */
+      right: 20px; /* Vị trí hiện tại */
+    }
+    100% {
+      opacity: 0; /* Mờ dần */
+      right: -100%; /* Di chuyển ra ngoài màn hình */
+    }
+  }
+  
+
+  /* Định dạng ô nhập tin nhắn và nút gửi */
+.message-input-wrapper {
+    position: fixed;
+    bottom: 20px;  /* Đặt ở dưới cùng màn hình */
+    left: 50%;
+    transform: translateX(-50%); /* Căn giữa ngang */
+    transition: transform 0.5s ease-in-out;
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 300px; /* Chiều rộng của hộp nhập */
+    opacity: 0;  /* Ban đầu ẩn */
+    animation: slideIn 0.5s ease-out forwards; /* Hiệu ứng trượt vào */
+    z-index: 1000;  /* Đảm bảo ô nhập tin nhắn nằm trên các phần tử khác */
+  }
+  
+  /* Hiệu ứng trượt từ dưới lên */
+  @keyframes slideIn {
+    0% {
+      opacity: 0;
+      transform: translateX(-50%) translateY(100%); /* Bắt đầu ngoài màn hình */
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(-50%) translateY(0); /* Dừng lại ở vị trí giữa màn hình */
+    }
+  }
+  
+  /* Định dạng nút gửi */
+  .message-input-wrapper button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .close-btn{
+    color: black;
+    display: flex;
+    justify-content: end;
+    cursor: pointer;
+  }
+  
+  
+  .message-input-wrapper button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Khi thông báo cần fade-out (mờ dần và biến mất) */
+  .message-input-wrapper.fade-out {
+    animation: fadeOut 1s ease-out forwards; /* Hiệu ứng fade-out */
+  }
+  
+  /* Hiệu ứng fade-out: Mờ dần và biến mất */
+  @keyframes fadeOut {
+    0% {
+      opacity: 1;  /* Vẫn hiển thị */
+      transform: translateX(-50%) translateY(0);
+    }
+    100% {
+      opacity: 0;  /* Mờ dần */
+      transform: translateX(-50%) translateY(100%);  /* Di chuyển xuống dưới màn hình */
+    }
+  }
+  
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);  /* Màu nền mờ */
+    z-index: 999;  /* Đảm bảo overlay phủ lên tất cả */
+    display: none; /* Ban đầu không hiển thị */
+  }
+  .overlay-visible {
+    display: block; /* Hiển thị overlay khi showMessageInput là true */
+  }
+  .message-input-wrapper.slide-up {
+    transform: translateY(0); /* Đưa ô nhập tin nhắn lên */
+  }
